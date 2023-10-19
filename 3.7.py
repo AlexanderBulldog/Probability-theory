@@ -1,3 +1,6 @@
+# Задача 3.7. На шахматную доску ставят наудачу k ладей. С какой вероятностью они
+#не будут бить друг друга? 
+
 def rook_combinations (k):
     good_combinations = 1
     all_combinations = 1

@@ -6,4 +6,4 @@ summ_birthday = 1
 for i in range (1, 12):
     birthday_probability = i/group_members
     summ_birthday *= birthday_probability
-print (summ_birthday*100) 
+print ( f'{summ_birthday:2.6f}')
